@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<!-- Bootstrap -->
+<link rel="stylesheet" type="text/css"  href="css/bootstrap.css">
+<link rel="stylesheet" type="text/css" href="fonts/font-awesome/css/font-awesome.css">
+    <!-- Stylesheet
+    ================================================== -->
+
+<link rel="stylesheet" type="text/css"  href="css/index.css">
+<link rel="stylesheet" type="text/css"  href="https://cdnjs.cloudflare.com/ajax/libs/flexslider/2.2.0/flexslider-min.css">
+<link rel="stylesheet" type="text/css"  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.csss">
+
+<title>Constant-Web</title>
+</head>
+<body  data-spy="scroll" data-target="#menu_c" data-offset="50">
+    <div class="container">
+        <header class="header">
+		<div class="round"> <h6 class="logo text-center">Cabecera logo</h6></div>
+	   <div id="menu_c">
+		<ul id="links_bottom"class="nav navbar-nav navbar-l">
+	         <li><a href="#contact">Contacto</a></li>
+		     <li><a href="#thumbs">Reformas</a></li>
+			 <li><a href="#contact">y lo que......</a></li>
+      </ul>
+	
+      </div>
+      </header>
+    <div class="slideshow">
+        <div class="flexslider left">
+            <ul class="slides" style="width:100%!important">
+                <li>
+                    <img src="./images/casa01.jpg">
+                    <div class="meta">
+                        <h1>Quieres vivir comodo.</h1>
+                        <h2>en una buena casa.</h2>
+                        <div class="category">
+                            <p>llamanos</p>
+                            <span>reformas</span>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <img src="./images/casa02.jpg">
+                    <div class="meta">
+                        <h1>Te lo ponemos bonito</h1>
+                        <h2>y comodo</h2>
+                        <div class="category">
+                            <p>renueva tu casa</p>
+                            <span>llamanos</span>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <img src="./images/casa04.jpg">
+                    <div class="meta">
+                        <h1>Ya es hora de un cambio</h1>
+                        <h2>reforma tu casa  </h2>
+                        <div class="category">
+                            <p>nueva mirada</p>
+                            <span>llamanos</span>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <img src="./images/casa03.jpg">
+                    <div class="meta">
+                        <h1>reformas profesionales</h1>
+                        <h2>arreglos de espacio</h2>
+                        <div class="category">
+                            <p>presupuestos</p>
+                            <span>sin compromiso</span>
+                        </div>
+                    </div>
+                </li>
+				   <li>
+                    <img src="./images/casa05.jpg">
+                    <div class="meta">
+                        <h1>piensa en el cambio</h1>
+                        <h2>una mejor vida</h2>
+                        <div class="category">
+                            <p>llamanos </p>
+                            <span>ya</span>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+	<hr />
+    <section id ="thumbs">
+     <a href="#thumbs1">   
+	 <div class="wrapper">
+         
+        <div class="caption" data-title="Reformas" data-description="Figaro, called by his friends 'Pippo formaggio' is a sweet cat. He is from Rome and he loves so much cuddles and chicken specialties">
+        <img src="./images/casa03.jpg" alt="image-hosted-on-github" />
+     </div>
+      
+    </div> 
+	</a>
+	<a href="#" class="lightbox" id="thumbs1">
+  <span style="background-image: url('https://picsum.photos/seed/9/900/450')"></span>
+</a>
+	    <div class="wrapper">
+        <div class="caption" data-title="Ventas" data-description="Figaro, called by his friends 'Pippo formaggio' is a sweet cat. He is from Rome and he loves so much cuddles and chicken specialties">
+        <img src="./images/casa05.jpg" alt="image-hosted-on-github" />
+        </div>
+       </div>
+	    <div class="wrapper">
+        <div class="caption" data-title="Alquileres" data-description="Figaro, called by his friends 'Pippo formaggio' is a sweet cat. He is from Rome and he loves so much cuddles and chicken specialties">
+        <img src="./images/casa01.jpg" alt="image-hosted-on-github" />
+        </div>
+       </div>
+</section>
+   <!-- Contact Section -->
+<aside id="contact" class="text-center">
+  <div class="container">
+
+    <div class="col-md-10 col-md-offset-1">
+      <form name="sentMessage" id="contactForm" novalidate>
+        <div class="row">
+          <div class="col-md-6">
+            <div class="form-group">
+              <input type="text" id="name" class="form-control" placeholder="Nombre" required="required">
+              <p class="help-block text-danger"></p>
+            </div>
+          </div>
+		     <div class="col-md-6">
+            <div class="form-group">
+              <input type="text" id="empresa" class="form-control" placeholder="Empresa" required="required">
+              <p class="help-block text-danger"></p>
+            </div>
+          </div>
+		     <div class="col-md-6">
+            <div class="form-group">
+              <input type="number" id="telefono" class="form-control" placeholder="Telefono" required="required">
+              <p class="help-block text-danger"></p>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="form-group">
+              <input type="email" id="email" class="form-control" placeholder="Email" required="required">
+              <p class="help-block text-danger"></p>
+            </div>
+          </div>
+        </div>
+        <div class="form-group">
+          <textarea name="message" id="message" class="form-control" rows="4" placeholder="Mensaje" required></textarea>
+          <p class="help-block text-danger"></p>
+        </div>
+        <div id="success"></div>
+        <button type="submit" class="btn btn-custom btn-lg">Enviar Mensaje</button>
+      </form>
+    </div>
+  </div>
+</aside>
+<div id="footer">
+  <div class="containerfooter text-center">
+  
+    <div class="col-md-12">
+      <h3> Info-Contacto</h3>
+	 
+      <div class="contact-item">  
+	  <h5> Constan 2020 S.L</h5>
+        <p>Telefono +34 669 069 069</p>
+        <p>Email: constant@test.net </p>
+      </div>
+    </div>
+
+
+  </div>
+  <div class="container-fluid text-center copyrights">
+    <div class="col-md-8 col-md-offset-2">
+     
+      <p>&copy; Constan. All rights reserved. Designed by <a href="http://www.lemonvisions.com" rel="nofollow">Lemonvisions-TemplateWire</a></p>
+    </div>
+  </div>
+</div>
+    </div>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script> 
+	<script type="text/javascript" src="js/jquery.1.11.1.js"></script> 
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script> 
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/flexslider/2.2.0/jquery.flexslider-min.js"></script> 
+	<script type="text/javascript" src="js/bootstrap.js"></script> 
+
+
+    <script>
+    $('.flexslider').flexslider({
+        animation: "slide",
+        controlNav: false,
+		direction: "horizontal",        //String: Select the sliding direction, "horizontal" or "vertical"
+reverse: false,                 //{NEW} Boolean: Reverse the animation direction
+animationLoop: true,             //Boolean: Should the animation loop? If false, directionNav will received "disable" classes at either end
+smoothHeight: false,            //{NEW} Boolean: Allow height of the slider to animate smoothly in horizontal mode  
+startAt: 0,                     //Integer: The slide that the slider should start on. Array notation (0 = first slide)
+slideshow: true,                //Boolean: Animate slider automatically
+slideshowSpeed: 7000,           //Integer: Set the speed of the slideshow cycling, in milliseconds
+animationSpeed: 600,            //Integer: Set the speed of animations, in milliseconds
+initDelay: 0,                   //{NEW} Integer: Set an initialization delay, in milliseconds
+randomize: false,               //Boolean: Randomize slide order
+minItems: 1,                   //{NEW} Integer: Minimum number of carousel items that should be visible. Items will resize fluidly when below this.
+maxItems: 1,                    //{NEW} Integer: Maxmimum number of carousel items that should be visible. Items will resize fluidly when above this limit.
+move: 4,
+		
+    });
+    </script>
+</body>
+</html>
